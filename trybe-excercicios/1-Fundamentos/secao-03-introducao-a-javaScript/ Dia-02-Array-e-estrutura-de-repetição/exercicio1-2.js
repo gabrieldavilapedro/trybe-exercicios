@@ -5,3 +5,4 @@ for(let index = 0; index < numbers.length; index += 1){
     SomaDosNumbesr = SomaDosNumbesr + numbers[index]
  }   
 console.log(SomaDosNumbesr)
+
