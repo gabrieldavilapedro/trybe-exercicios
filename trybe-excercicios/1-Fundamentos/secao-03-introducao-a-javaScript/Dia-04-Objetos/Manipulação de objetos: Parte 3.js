@@ -25,3 +25,9 @@ const school = {
       },
     ]
   };
+
+  const chave = (arrai) => {
+    let valorDasChaves = Object.entries(arrai.lessons)
+    return valorDasChaves
+  }
+  console.log(chave(school))
