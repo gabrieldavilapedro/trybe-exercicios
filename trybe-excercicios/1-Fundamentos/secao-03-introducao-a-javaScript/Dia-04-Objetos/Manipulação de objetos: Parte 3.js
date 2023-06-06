@@ -31,3 +31,13 @@ const school = {
     return valorDasChaves
   }
   console.log(chave(school))
+
+  const somaDosNumeros = (soma) => {
+    let totalDeEstudantes = 0 
+    for (let index = 0; index <soma.lessons.length; index +=1){
+    let valor = soma.lessons[index].students
+    totalDeEstudantes = totalDeEstudantes + valor
+    }
+    return totalDeEstudantes
+  }
+  console.log(somaDosNumeros(school))
