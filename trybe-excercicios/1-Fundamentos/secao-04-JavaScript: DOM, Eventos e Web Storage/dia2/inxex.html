@@ -97,11 +97,11 @@
       }
       sectionRigth.appendChild(ul);
       // 9----------------------------------------------------------------------------
-      const trêsH3 = document.createElement ('h3')
       for(let index = 0; index < 3; index += 1) {
-        trêsH3[index].className = "description"
+        const trêsH3 = document.createElement ('h3')
+        trêsH3.innerText = index
+        main.appendChild(trêsH3);
       }
-      main.appendChild(trêsH3);
     </script>
   </body>
 </html>
